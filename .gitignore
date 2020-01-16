@@ -3,7 +3,7 @@
 *.iml
 .DS_Store
 node_modules
-dist
+/sample/signing-front-end/dist
 
 # local env files
 .env.local
