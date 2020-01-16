@@ -1,0 +1,63 @@
+{
+  "issuer": [
+    {
+      "id": "test",
+      "context": "test claim",
+      "properties": {
+        "age": {
+          "type": "INT",
+          "description": "age"
+        },
+        "name": {
+          "type": "STRING",
+          "description": "name"
+        }
+      },
+      "issuerNamespace": "xxx.app.ont",
+      "view": "http://view.com"
+    },
+    {
+      "id": "test2",
+      "context": "test2 claim",
+      "properties": {
+        "age": {
+          "type": "INT",
+          "description": "age"
+        },
+        "name": {
+          "type": "STRING",
+          "description": "name"
+        }
+      },
+      "issuerNamespace": "xxx.app.ont",
+      "view": "http://view.com"
+    }
+  ],
+  "consumer": [
+    {
+      "id": "testConsumer",
+      "issueBy": "",
+      "condition": [
+        {
+          "key": "name",
+          "optional": false,
+          "type": "STRING",
+          "op": "EQ",
+          "val": "test"
+        },
+        {
+          "key": "age",
+          "optional": false,
+          "type": "INT",
+          "op": "GT",
+          "val": 18
+        }
+      ]
+    },
+    {
+      "id": "helloConsumer",
+      "issueBy": "did:ont:AR9NDnK3iMSZodbENnt7eX5TJ2s27fnHra",
+      "condition": []
+    }
+  ]
+}
