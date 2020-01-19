@@ -24,7 +24,7 @@ https://store.dev.ont.io/login
 5.查看app详细及修改配置
 ![](../image/app-detail.png)
 
-配置说明：
+signing-addon配置说明：
 ```json
 {
   "payerAddress": "AcdBfqe7SG8xn4wfGrtUbbBDxw2x1e8UKm",
@@ -70,5 +70,10 @@ dataUrl:
 
 ````
 callbackUrl:
-signing-server的回调请求参数详见"Signing-server-Restful-api.md"
+signing-server的回调请求参数详见： https://github.com/ont-bizsuite/signing-addon/blob/master/documentation/Signing-server-Restful-api.md
 ````
+
+6.使用SDK开发应用：
+```
+https://github.com/ont-bizsuite/signing-sdk-java
+```
