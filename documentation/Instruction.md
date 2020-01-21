@@ -60,7 +60,7 @@ signing-addon配置说明：
 | onchainRec        | boolean | 是否上链动作 |
 | dataUrl        | String | OntAuth获取交易参数的接口地址(需定义为Get请求) |
 | callbackUrl        | String | signing-server需要回调告知app验签结果的接口地址(需定义为Post请求) |
-| mainNet        | boolean | 验签成功返回"1",验签失败"0",未验签返回null |
+| mainNet        | boolean | 节点类型：true-主网；false-测试网 |
 
 ````
 dataUrl:

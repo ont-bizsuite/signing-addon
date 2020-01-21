@@ -109,7 +109,7 @@
             "operation": "signMessage",
             "args": [{
                 "name": "message",
-                "value": "String:helloworld",
+                "value": "String:helloworld"
             }]
         }],
         "payer": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
